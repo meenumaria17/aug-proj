@@ -8,6 +8,12 @@ public class FirstClass {
 		LearningStatic LS_obj = new LearningStatic();
 		LS_obj.TestingStaticVariables();
 		
+		
+	}
+	
+	public String displayName()
+	{
+		return "Meenu";
 	}
 	
 	

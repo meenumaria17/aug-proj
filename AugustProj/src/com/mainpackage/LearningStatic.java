@@ -4,6 +4,8 @@ import com.staticandfinal.Department;
 import com.staticandfinal.Employee;
 
 public class LearningStatic {
+	
+	
 
 	
 	public void TestingStaticVariables()
@@ -26,5 +28,26 @@ public class LearningStatic {
 		Department FS_department = new Department("FS");
 		System.out.println("Comapany is " + FS_department.getCompany_name() + " and " + Department.getCompany_name() + " also " + Employee.getCompany_name());
 
+	}
+	
+	static void calculateTime()
+	{
+		
+	
+		/*
+		 * do not require an object to be created to call a static method/static variable
+		 * 
+		 * can access ONLY static methods of THIS class.
+		 * Can access non-static methods of other classes
+		 * 
+		 * static methods can access ONLY static variables of this class
+		 * But can access non static variables of another class
+		 * 
+		 * static methods CAN NOT be OVERRIDEN
+		 * 
+		 * Normally static methods are used in utility classes
+		 */
+		
+		
 	}
 }
